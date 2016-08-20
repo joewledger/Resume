@@ -1,0 +1,197 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.5in,top=0.4in,right=0.5in,bottom=0.4in]{geometry} % Document margins
+\usepackage{multicol}
+
+\name{Joe Ledger} % Your name
+\address{joewledger@gmail.com}
+\address{(646)~$\cdot$~684~$\cdot$~2248} % Your phone number and email
+\address{Cleveland, OH}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Case Western Reserve University (CWRU)} \hfill {\em Cleveland, OH} \\
+M.S. in Computer Science \hfill {\em Expected Graduation: Spring 2018}\\ 
+\setlength\parindent{24pt} \indent Graduate GPA: 4.0 \\
+B.S. in Computer Science \hfill {\em Expected Graduation: Spring 2017}\\
+\setlength\parindent{24pt} \indent Minor: Applied Data Science \\
+\setlength\parindent{24pt} \indent Undergraduate GPA: 3.56 \\
+{\bf Bronx High School of Science} \hfill {\em Graduated: Spring 2013}
+
+\end{rSection}
+
+%---------------------------------------------------------------------------------------
+
+\begin{rSection}{Key Projects}
+{\bf Cached Personalized Page Rank}
+\begin{list}{$\cdot$}{\leftmargin=2em}
+\vspace{-.5em}
+\item A research effort to speed Personalized Page Rank using precomputed proximity vectors.
+\vspace{-.5em}
+\item Technologies: Java, Apache Commons Math, MySQL, Python, Matplotlib
+\vspace{-.5em}
+\end{list}
+
+{\bf Cell Line Classification Project}
+\begin{list}{$\cdot$}{\leftmargin=2em}
+\vspace{-.5em}
+\item A research effort to predict cancer cell line drug response using machine learning.
+\vspace{-.5em}
+\item Technologies: Python, Python Scientific Stack (Pandas, Scipy, Numpy, Matplotlib), Scikit-Learn
+\vspace{-.5em}
+\end{list}
+
+{\bf Green Labs Data Visualization Application}
+
+\begin{list}{$\cdot$}{\leftmargin=2em}
+\vspace{-.5em}
+\item Desktop Application for creating high quality custom visualizations from energy sensor data.
+\vspace{-.5em}
+\item Technologies: Qt, PyQt, Python, Pandas, Matplotlib
+\vspace{-.5em}
+\end{list}
+
+{\bf UnVolt Mobile/Web Backend}
+\begin{list}{$\cdot$}{\leftmargin=2em}
+\vspace{-.5em}
+\item Developing a backend for an Personal Energy Recommendations mobile/web application.
+\vspace{-.5em}
+\item Still early in development, but anticipated: Java, C, MySQL
+\vspace{-.5em}
+\end{list}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{CWRU Department of Computer Science}{Summers: 2015, 2016}{Undergraduate Researcher}{Cleveland, OH}{\leftmargin=2em}
+
+
+\item Summer 2015: Worked on the Cell Line Classification Project
+{\renewcommand\labelitemi{$\cdot$}\vspace{-0.5em}
+\begin{itemize}
+\item Used machine learning algorithms (Support Vector Machines and Decision Trees) to classify cell lines by their reaction to the cancer drug SMAPs using gene expression and IC50 data.
+\vspace{-0.5em}  
+\item Results presented at the 2015 CWRU Data Science Symposium and 2016 Research ShowCase.
+\end{itemize}
+}
+\item Summer 2016: Working on Cached Personalized Page Rank
+{\renewcommand\labelitemi{$\cdot$}\vspace{-0.5em}
+\begin{itemize}
+\item Effort to speed Personalized Page Rank computations by using precomputed proximity vectors.
+\vspace{-0.5em}  
+\item Early results are promising: 25\% speed increases for selected parameter settings.
+\end{itemize}
+}
+\item Both Summers : Peer-reviewed papers for Academic Conferences (ACM-BCB 2015, APBC 2016)
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{CWRU Office of Sustainability}{October 2015 - May 2016 (Part Time)}{Desktop Application Developer}{Cleveland, OH}
+\item Developed a desktop application with an easy-to-use GUI for non-technical users to make high-quality, fully-customizable data visualizations from energy sensors located in labs around campus. Also includes an integrated energy savings calculator.
+\item Application is used by lab auditors who write reports on how behavior changes could save energy. Both visualizations and energy calculator results are included in reports.
+\item Consulted with sustainability experts to determine best types of visualizations to include based on potential impact on behavioral changes.
+\end{rSubsection}
+
+\begin{rSubsection}{BldgScout Progamming Intern}{June - September 2016 (Part Time)}{Mobile/Web Backend Development}{Cleveland, OH}
+\item Developing a mobile/web backend for UnVolt, an application designed to provide personalized energy saving recommendations to users based on location, personal preferences, and home characteristics.
+\item Collaborating with The Form Group (who are designing the mobile frontend) on a clear, consistent, and easy to use backend API.
+
+\end{rSubsection}
+
+\end{rSection}
+
+%------------------------------------------------
+
+\begin{rSection}{Relevant Coursework}
+\begin{multicols}{2}[]
+\textbf{Data Mining} \\
+\textbf{High Performance Scientific Computing} \\
+\textbf{Causal Learning from Data} \\
+\textbf{Bioinformatics for Systems Biology} \\ 
+Computer Networks \\
+Algorithms \\
+Database Systems \\
+Software Craftsmanship
+\end{multicols}
+\vspace{-1.0em}
+*Courses in \textbf{bold} were taken at the graduate level.
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+\begin{list}{$\cdot$}{\leftmargin=0em}
+\item Proficient with programming languages Python and Java.
+\vspace{-0.5em}
+\item Experience with data science tools pandas, scikit-learn, scipy, and numpy.
+\vspace{-0.5em}
+\item Experienced with SQL, Git, Linux Command Line, LaTeX.
+\vspace{-0.5em}
+\item Experience with Cross-Platform Desktop Application Development with Qt.
+\vspace{-0.5em}
+\end{list}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	HONORS AND AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Honors and Awards}
+\begin{list}{$\cdot$}{\leftmargin=0em}
+\item University Merit Scholarship \hfill August 2013 - Present
+\vspace{-0.5em}
+\item Alumni Association Outstanding Junior/Senior Scholarship \hfill Spring 2016 - Present
+\vspace{-0.5em}
+\item Dean's High Honor Roll \hfill Spring 2014, Fall 2014
+\vspace{-0.5em}
+\item Dean's Honor Roll \hfill Spring 2015, Fall 2015, Spring 2016
+\vspace{-0.5em}
+\item Varsity Athlete (Cross-Country, Track \& Field) for CWRU \hfill{August 2013 - Present}
+\vspace{-0.5em}
+\item 5x UAA All-Academic Team \hfill{Spring 2014 - Present}
+\vspace{-0.5em}
+\end{list}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
